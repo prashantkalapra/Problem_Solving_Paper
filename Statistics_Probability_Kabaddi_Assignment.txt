@@ -1,0 +1,113 @@
+Statistics — Probability & Distribution Game: Kabaddi Player: Sachin
+(Gujarat Fortunegiants)
+
+Given Data
+
+  Match     Raid Points
+  ------- -------------
+  1                   8
+  2                  12
+  3                   6
+  4                  15
+  5                  10
+  6                   8
+  7                  14
+  8                   9
+  9                   8
+  10                 12
+
+Total Matches = 10
+
+(a) Mean, Median and Mode
+
+Mean
+
+  Calculation                     Value
+  ------------------- -----------------
+  Sum of all points                 102
+  Number of matches                  10
+  Mean                  102 ÷ 10 = 10.2
+
+Median
+
+Arrange the data in ascending order:
+
+6, 8, 8, 8, 9, 10, 12, 12, 14, 15
+
+Since there are 10 observations,
+
+Median = (9 + 10) / 2 = 9.5
+
+Mode
+
+    Score   Frequency
+  ------- -----------
+        6           1
+        8           3
+        9           1
+       10           1
+       12           2
+       14           1
+       15           1
+
+Mode = 8
+
+Answer: Mean = 10.2 Median = 9.5 Mode = 8
+
+The mean is the most suitable measure for predicting the next match
+because it takes every score into account and gives a balanced picture
+of Sachin’s overall performance.
+
+(b) Variance and Standard Deviation
+
+    Score (x)   x − 10.2   (x − 10.2)^2
+  ----------- ---------- --------------
+            8       -2.2           4.84
+           12        1.8           3.24
+            6       -4.2          17.64
+           15        4.8          23.04
+           10       -0.2           0.04
+            8       -2.2           4.84
+           14        3.8          14.44
+            9       -1.2           1.44
+            8       -2.2           4.84
+           12        1.8           3.24
+        Total                     77.60
+
+Variance = 77.60 / 10 = 7.76
+
+Standard Deviation = √7.76 ≈ 2.79
+
+A relatively low standard deviation shows that Sachin’s scores do not
+vary too much from match to match, which suggests that his performance
+is fairly consistent.
+
+(c) Empirical Probability
+
+Scores greater than 10 are: 12, 15, 14, 12
+
+P(score > 10) = 4/10 = 0.4
+
+The score of 8 appears 3 times.
+
+P(score = 8) = 3/10 = 0.3
+
+(d) Probability of scoring more than 10 points in at least 2 of 3
+    matches
+
+Let p = 0.4 and q = 0.6.
+
+P(at least 2) = P(2) + P(3)
+
+= 3 × (0.4)^2 × (0.6) + (0.4)^3 = 0.288 + 0.064 = 0.352
+
+Therefore, the probability that Sachin scores more than 10 points in at
+least 2 out of 3 independent matches is 0.352 or 35.2%.
+
+Summary
+
+(a) Mean = 10.2, Median = 9.5, Mode = 8.
+(b) Variance = 7.76, Standard Deviation ≈ 2.79.
+(c) P(score > 10) = 0.4 and P(score = 8) = 0.3.
+(d) Probability of scoring more than 10 points in at least 2 of 3
+    matches = 0.352 (35.2%).
